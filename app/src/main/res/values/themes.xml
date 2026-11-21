@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme with ActionBar. -->
+    <style name="Base.Theme.BarcenasLabActivity32" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/dark_green</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="actionBarStyle">@style/Widget.App.ActionBar</item>
+    </style>
+
+    <style name="Theme.BarcenasLabActivity32" parent="Base.Theme.BarcenasLabActivity32" />
+
+    <style name="Widget.App.ActionBar" parent="Widget.Material3.ActionBar.Solid">
+        <item name="background">@color/dark_green</item>
+        <item name="titleTextStyle">@style/Widget.App.ActionBar.TitleText</item>
+    </style>
+
+    <style name="Widget.App.ActionBar.TitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>
